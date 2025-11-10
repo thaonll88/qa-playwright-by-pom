@@ -1,5 +1,7 @@
 # Playwright (Python) – Login E2E with POM
 
+![CI](https://github.com/thaonll88/qa-playwright-by-pom/actions/workflows/tests.yml/badge.svg)
+
 ## Tech Stack
 - Python 3.12+
 - pytest
