@@ -3,7 +3,6 @@ from playwright.sync_api import Page, Locator
 class LoginPage:
     def __init__(self, page: Page):
         self.page = page
-        # Locators: ưu tiên role/placeholder + data-test cho ổn định
         self.username_input: Locator = page.get_by_placeholder("Username")
         self.password_input: Locator = page.get_by_placeholder("Password")
         self.login_button: Locator   = page.get_by_role("button", name="Login")
